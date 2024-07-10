@@ -1,0 +1,19 @@
+h1 {
+    color: antiquewhite;
+   }
+h2 {
+    color: yellowgreen;
+    font-size: medium;
+}
+.pictures {
+    height: 400px;
+    width: 400px;
+}
+#picture-one{
+    height: 400px;
+    width: 500px;
+}
+#picture-two{
+    height: 300px;
+    width: 600px;
+}

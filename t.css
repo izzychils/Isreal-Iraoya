@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+}
+.t{
+   margin-top: 100px;
+}
+
+.desktop{
+    width: 100px;
+    display: inline ;
+}
+input{
+    width: 50%;
+}
+.mobile{
+    display: none;
+}
+
+@media (max-width: 700px) {
+    body{
+        background-color: blue;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+    }
+}

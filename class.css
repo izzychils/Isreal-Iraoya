@@ -1,0 +1,81 @@
+body{
+    background-color: #333;
+
+}
+/* .lag button{
+    color: rgb(169, 179, 175);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    animation: slide-left;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    /* animation-direction: reverse; 
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+button:hover {
+    animation-play-state: paused;
+
+}
+
+@keyframes slide-left {
+   0% {
+margin-left: 0%;
+background-color: red;
+   }
+
+   50% {
+    margin-left: 50%;
+    background-color: blue;
+   }
+
+   100% {
+    margin-left:100%;
+    background-color: yellow;
+   }
+} */
+
+.lag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: yellow;
+    padding: 2rem;
+
+}
+
+.box {
+    background-color: #fff;
+    height: 10rem;
+    width: 10rem;
+
+}
+
+.box-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: blue;
+}
+
+.box-19 {
+    position: sticky;
+    top: 5px;
+    background-color: pink;
+}
+.box-15 {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: green;
+}
+
+
